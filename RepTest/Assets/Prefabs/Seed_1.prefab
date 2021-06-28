@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3494712188316291931}
   - component: {fileID: 3877670507511239772}
+  - component: {fileID: 2284797244148087964}
   m_Layer: 0
   m_Name: step3
   m_TagString: Untagged
@@ -81,6 +82,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2284797244148087964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671470495145702602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb860c8ed99a1784591240e4a2f0f69e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: flower
+  purchasePrice: 100
+  sellPrice: 500
+  maxSize: 1
 --- !u!1 &679350828093896667
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,6 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2381606140680359999}
+  - component: {fileID: 2284797244148087962}
   m_Layer: 0
   m_Name: Seed_1
   m_TagString: Untagged
@@ -115,6 +133,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2284797244148087962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679350828093896667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81314abdaedfc5b43bdf38306b4765cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plant:
+  - {fileID: 5720485050837061952}
+  - {fileID: 1819570535370262452}
+  - {fileID: 671470495145702602}
+  - {fileID: 7616968595521431090}
 --- !u!1 &1819570535370262452
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6102848628278457096}
   - component: {fileID: 2598580710077501170}
+  - component: {fileID: 2284797244148087965}
   m_Layer: 0
   m_Name: step2
   m_TagString: Untagged
@@ -196,6 +232,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2284797244148087965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819570535370262452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb860c8ed99a1784591240e4a2f0f69e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: flower
+  purchasePrice: 100
+  sellPrice: 500
+  maxSize: 1
 --- !u!1 &5720485050837061952
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3352784590122673045}
   - component: {fileID: 8136047834258266730}
+  - component: {fileID: 2284797244148087966}
   m_Layer: 0
   m_Name: step1
   m_TagString: Untagged
@@ -277,6 +330,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2284797244148087966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5720485050837061952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb860c8ed99a1784591240e4a2f0f69e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: flower
+  purchasePrice: 100
+  sellPrice: 500
+  maxSize: 1
 --- !u!1 &7616968595521431090
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,6 +356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9096613541233199102}
   - component: {fileID: 3316939763156499745}
+  - component: {fileID: 2284797244148087963}
   m_Layer: 0
   m_Name: step4
   m_TagString: Untagged
@@ -358,3 +428,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2284797244148087963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7616968595521431090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb860c8ed99a1784591240e4a2f0f69e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: flower
+  purchasePrice: 100
+  sellPrice: 500
+  maxSize: 1
